@@ -1,5 +1,17 @@
+*{
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topnav {
+    margin: 0px;
+    margin-top: 40px;
+    display: inline-block
+}
+
 .topnav a {
-    float: left;
+   
     color: #333333;
     text-align: center;
     padding: 14px 16px;
@@ -8,6 +20,7 @@
     border-radius: 6px;
   }
 
+  /* Comentado porque no me acaba de convencer. Si tengo tiempo me vuelvo a poner con ello. */
   /* .topnav a:hover {
     border-radius: 6px;
     border: 2px solid red;
