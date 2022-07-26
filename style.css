@@ -131,8 +131,33 @@ a.getInTouch {
   
 }
 .marca {
-  padding: 30px;
-  width: auto;
+  padding: 35px;
+  width: 12%;
   -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+
+.marcaAmazon {
+  padding: 35px;
+  padding-bottom: 25px;
+  width: 12%;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.marcaGoogle {
+  padding: 35px;
+  padding-bottom: 25px;
+  width: 12%;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.marcaAirbnb {
+  padding: 35px;
+  padding-bottom: 28px;
+  width: 12%;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
