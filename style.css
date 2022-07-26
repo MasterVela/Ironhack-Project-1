@@ -1,33 +1,62 @@
 *{
     font-family: 'Roboto';
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
-.topnav {
-    margin: 0px;
-    margin-top: 40px;
-    display: inline-block
+
+div{
+  box box-sizing: border-box;
+}
+
+
+
+.topnav{
+  position: static;
+  margin: 40px;
+  text-align: center;
 }
 
 .topnav a {
-   
+    margin-top: 40px;;
     color: #333333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 6px;
+    margin: auto;
   }
 
-  /* Comentado porque no me acaba de convencer. Si tengo tiempo me vuelvo a poner con ello. */
-  /* .topnav a:hover {
+   .topnav a:hover {
     border-radius: 6px;
-    border: 2px solid red;
-    border-color: #072Ac8;
-  } */
+    box-shadow: inset 0 0 0 2px #072Ac8;
+    font-weight: 900;
+  } 
 
   .topnav a.active {
     background-color: #072Ac8;
     color: white;
   }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-top: -8px;
+  }
+
+  a.ContactUs {
+    float: right;
+    color: #072Ac8;
+    background: transparent;
+    border: 2px solid #072Ac8;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-top: -15px;
+
+  }
+  .ContactUs:hover {
+    background-color: #072Ac8;
+    color: white;
+}
