@@ -3,6 +3,19 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: #F4F6FC;
+}
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
 }
 
 div{
@@ -13,7 +26,7 @@ div{
 
 .topnav{
   position: static;
-  margin: 40px;
+  margin: 40px 8% 40px 8%;
   text-align: center;
 }
 
@@ -59,4 +72,56 @@ div{
   .ContactUs:hover {
     background-color: #072Ac8;
     color: white;
+}
+
+.mainInfo {
+  margin: 40px 8% 40px 8%;
+}
+
+span{
+  padding-left: 30px;
+}
+
+.mainInfo {
+  margin-top: 200px;
+}
+
+a.getInTouch {
+  color: #072Ac8;
+  background: transparent;
+  border: 2px solid #072Ac8;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  a.getInTouch:hover {
+    background-color: #072Ac8;
+    color: white;
+}
+
+.hero {
+  width: 600px;
+  height: auto;
+  float: right;
+  margin-top: -550px;
+  margin-right: 8%;
+}
+
+.tarjeta1 {
+  width: 450px;
+  height: auto;
+  float: right;
+  margin-top: -600px;
+  margin-right: -20%;
+  background-color: transparent;
+}
+
+.tarjeta2 {
+  width: 350px;
+  height: auto;
+  float: right;
+  margin-top: -100px;
+  margin-right: -47%;
+  background-color: transparent;
 }
