@@ -125,3 +125,14 @@ a.getInTouch {
   margin-right: -47%;
   background-color: transparent;
 }
+
+.logos {
+  text-align: center;
+  
+}
+.marca {
+  padding: 30px;
+  width: auto;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
