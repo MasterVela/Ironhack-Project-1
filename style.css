@@ -194,7 +194,7 @@ a.getInTouch {
   
   width: 340px;
   height: 444px;
-  box-shadow: 0px 1px 10px 0px;
+  box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
 }
 
@@ -229,3 +229,27 @@ a.getInTouch {
   text-decoration: none;
   padding: 30px;
 }
+
+.testimonialSection {
+  width: 1100px;
+  height: 625px;
+  background-color: #292E47;
+  align-items: center;
+  text-align: center;
+  margin: 40px 8% 40px 8%;
+}
+
+.orbit {
+  background-color: transparent;
+  width: 1100px;
+  height: 625px;
+}
+
+.emoji1{
+  width: 150px;
+  height: 150px;
+  float: left;
+  position: inherit;
+  
+}
+
