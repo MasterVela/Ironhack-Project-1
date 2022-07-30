@@ -401,5 +401,24 @@ top: -70px;
   position: relative;
   top: -185px;
   text-align: justify;
+}
 
+.contactUsForm {
+  margin: 40px 8% 40px 8%;
+}
+
+.gridForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.gridFormChild1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.gridFormChild2 {
+  grid-area: 1 / 2 / 2 / 3;
 }
