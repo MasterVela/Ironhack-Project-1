@@ -469,6 +469,11 @@ span {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
 
 /* Index page */
 
@@ -622,7 +627,14 @@ span {
     top: -5px;
     left: -5px;
   }
-  
+
+  #tarjeta1:hover, #tarjeta2:hover, #tarjeta3:hover {
+    z-index: 998;
+  }
+
+  #tarjeta1:hover {
+    left: 50px;
+  }
 }
 
 .mobileNav {
@@ -642,6 +654,7 @@ span {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    z-index: 999;
 }
 
 .mobileNav a {
