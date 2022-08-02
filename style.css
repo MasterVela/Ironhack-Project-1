@@ -577,6 +577,52 @@ span {
   }
 
   /* Project page */
+
+  .projectsTitle h1{
+    position: relative;
+    top: -30px;
+  }
+
+  .completation {
+   top: -35px;
+   font-size: 15px;
+  }
+
+  .projectPhoto {
+    width: 600;
+    height: 600;
+    border-radius: 0px;
+    position: relative;
+    left: -50px;
+    top: -50px;
+  }
+
+  .projectsbody, .projectText, .projectText .contactP, .projectTextP {
+    background-color: transparent;
+  }
+
+  .projectTextP{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    background-color: rgba(226, 226, 226, 0.50);
+    backdrop-filter: blur(10px);
+    border: 30px solid transparent;
+    color: #333333;
+    position: relative;
+    top: -480px;
+  }
+  .ProjectFinalPage {
+    position: relative;
+    top: -480px
+  }
+
+  /* Contct Us page */
+
+  .ContactUsForm h1 {
+    position: relative;
+    top: -5px;
+    left: -5px;
+  }
+  
 }
 
 .mobileNav {
@@ -585,7 +631,7 @@ span {
   height: 10%;
   width: 100%;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-  border-radius: 20px 20px 0 0;
+  border-radius: 10px 10px 0 0;
   background-color: rgba(226, 226, 226, 0.50);
   backdrop-filter: blur(10px);
 }
