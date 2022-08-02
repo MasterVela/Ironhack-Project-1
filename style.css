@@ -13,7 +13,6 @@
   }
 }
 
-
 h1 {
   font-style: normal;
   font-weight: 700;
@@ -42,7 +41,6 @@ p {
 div{
   box box-sizing: border-box;
 }
-
 
 
 .topnav{
@@ -421,4 +419,36 @@ top: -70px;
 
 .gridFormChild2 {
   grid-area: 1 / 2 / 2 / 3;
+}
+
+.formLabel {
+  color: #6B708D;
+}
+
+.textArea1 , .textArea2 , .textArea3, .textArea4{
+  border: 0px solid grey;
+  background-color: lightgrey;
+  padding: 15px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.textArea2, .textArea3 {
+  width: 99%;
+}
+
+.formButton {
+  padding: 15px;
+  border: 0px solid white;
+  background-color: #072Ac8;
+  color: white;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.formButton:hover {
+  background-color: transparent;
+  color:#333333;
+  box-shadow: inset 0 0 0 2px #072Ac8;
+  
 }
