@@ -433,8 +433,12 @@ top: -70px;
   border-radius: 6px;
 }
 
-.textArea2, .textArea3 {
-  width: 99%;
+.textArea2 {
+  width: 97%;
+}
+
+.textArea3 {
+  width: 100%;
 }
 
 .formButton {
