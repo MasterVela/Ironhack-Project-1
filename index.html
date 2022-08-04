@@ -107,7 +107,7 @@
             <h3 class="contactH">Do you have any questions?</h3>
             <p class="contactP">Let us help you</p>
             <form class="contactForm" action="sendEmail">
-                <input class="mailBox" type="text" id="fname" name="fname" placeholder="Enter your Email">
+                <input class="mailBox" type="email" id="fname" name="fname" placeholder="Enter your Email">
                 <input class="submitButton"type="submit" value="Submit">
             </form>
         </div> <br> <br> <br>
@@ -132,7 +132,43 @@
         <a class="active" id="mobileNavItem1" href="index.html">Home</a>
         <a class="idk" id="mobileNavItem2"  href="#sections">Projects</a>
         <a id="mobileNavItem3" href="#services">Services</a>
-        <a id="mobileNavItem4" class="contactUs" href="ContactUs.html" >Contact Us</a>
+        <a id="mobileNavItem4" class="contactUs" href="#title" onclick="showForm()">Contact Us</a>
     </div>
+    <div class="popupContainer" id="popup1">
+        <div class="popup" id="popup1">
+            <form  action="/action_page.php">
+                <label class="formLabel" for="fname">Full name*</label><br> <br>
+                <input class="textarea1"  type="text" id="fname" name="fname" placeholder="Enter your Full Name" required><br> <br>
+                <img id="cruzeta" src="project-assets/cruzeta.png" onclick=showForm() alt="">
+                <div class="GridForm">
+                    <div class="GridFormChild1">
+                        <label class="formLabel" for="email">Email</label> <br> <br>
+                        <input class="textarea2"  type="email" id="email" name="email" placeholder="Enter your Email Adress"> <br>
+                    </div>
+    
+                    <div class="GridFormChild2">
+                        <label class="formLabel" for="tel">Phone</label> <br> <br>
+                        <input class="textarea3" type="tel" id="tel" name="tel" size="9" pattern="[0-9]{6}" placeholder="Enter your Phone Number">
+                    </div>
+                </div> <br>
+    
+                <label class="formLabel" for="message">Message</label><br> <br>
+                <textarea class="textarea4" id="message" name="message" placeholder="Write something.." style="height:200px"></textarea> <br>
+                
+                <br> <input class="formButton" type="submit" value="Submit">
+            </form> 
+        </div>
+    </div>
+    <script>
+        function showForm() {
+          var x = document.getElementById("popup1");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+
 </body>
 
