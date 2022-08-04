@@ -534,12 +534,12 @@ span {
 
   #tarjeta2, #tarjeta3{
     position:relative;
-    right: 50%;
+    right: 60%;
   }
 
   #tarjeta3 {
     position:relative;
-    right: 100%;
+    right: 120%;
   }
 
   .orbit {
